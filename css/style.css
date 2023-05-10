@@ -1,4 +1,4 @@
-body{
+ body{
     background: #F6F6F6;
 }
 
@@ -6,11 +6,21 @@ body{
     text-decoration: none;
 }
 
+@media screen and (min-width: 1024px) {
 .container{
     max-width: 1158px;
     margin: 0 auto;
     padding-right: 24px;
     padding-left: 24px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 704px;
+        margin: 0 auto;
+    }
 }
 
 .osnova{
@@ -19,11 +29,10 @@ body{
 
 .title{
     font-family: 'DM Sans';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 52px;
-
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
     color: #111111;
 }
 
@@ -37,20 +46,50 @@ body{
     color: #4F2EE8;
 }
 
-.list{
+.list {
     border-radius: 16px;
     border: 2px solid rgba(79, 46, 232, 0.4);
     background-color: #FFFFFF;
-    
+
     display: flex;
     margin-bottom: 44px;
     padding: 24px;
     position: relative;
-    width: 996px;
+    width: 335px;
 }
+
+@media screen and (min-width: 768px) {
+    .list {
+        border-radius: 16px;
+        border: 2px solid rgba(79, 46, 232, 0.4);
+        background-color: #FFFFFF;
+        overflow: hidden;
+        display: flex;
+        margin-bottom: 44px;
+        padding: 24px;
+        position: relative;
+        width: 704px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .list {
+        border-radius: 16px;
+            border: 2px solid rgba(79, 46, 232, 0.4);
+            background-color: #FFFFFF;
+        
+            display: flex;
+            margin-bottom: 44px;
+            padding: 24px;
+            position: relative;
+            width: 996px;
+    }
+}
+
 
 .amas{
     margin-left: 24px;
+    max-width: 1024px;
 }
 
 .text-one{
@@ -78,17 +117,49 @@ body{
     margin-bottom: 14px;
 }
 
-.text-three{
+
+
+
+
+
+
+.text-three {
+    
     font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #111111;
+    width: 193px;
+    margin: 0;
+}
+
+
+@media screen and (min-width: 768px) {
+    .text-three {
+        width: 508px;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .text-three {
+        font-family: 'DM Sans';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 18px;
-    color: #111111;
-
-    margin: 0;
-    margin-bottom: 48px;
+        color: #111111;
+        width: 808px;
+        margin: 0;
+        margin-bottom: 48px;
+    }
 }
+
+
+
+
 
 .text-four{
     font-family: 'DM Sans';
