@@ -6,6 +6,15 @@
     text-decoration: none;
 }
 
+
+    .container {
+        max-width: 335px;
+        margin: 0 auto;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+
 @media screen and (min-width: 1024px) {
 .container{
     max-width: 1158px;
@@ -211,3 +220,44 @@
     color: white;
 }
 
+
+.button-click{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+
+
+.btn{
+    background-color: #111111;
+    color: #B4AFAF;
+    margin-right: 24px;
+    border-radius: 100px;
+    border: #111111;
+}
+
+.btn:first-child{
+    margin-right: 8px;
+}
+
+.btn-two{
+    background: none;
+    margin-right: 10px;
+    border-color: black;
+    border-radius: 100px;
+}
+
+.btn-two:last-child{
+}
+
+.btn-three{
+    margin-left: 14px;
+    background-color: #EAC645;
+    border-color: #111111;
+    border-radius: 100px;
+}
+
+.btn-three:last-child{
+    margin-left: 10px;
+}
