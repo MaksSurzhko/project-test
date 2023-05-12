@@ -140,14 +140,16 @@
     font-size: 14px;
     line-height: 18px;
     color: #111111;
-    width: 193px;
+    max-height: 68px;
+    max-width: 193px;
     margin: 0;
 }
 
 
 @media screen and (min-width: 768px) {
     .text-three {
-        width: 508px;
+        max-width: 508px;
+        max-height: 53px;
         margin: 0;
     }
 }
@@ -160,7 +162,7 @@
         font-size: 14px;
         line-height: 18px;
         color: #111111;
-        width: 808px;
+        max-width: 808px;
         margin: 0;
         margin-bottom: 48px;
     }
@@ -223,7 +225,7 @@
 
 .button-click{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     margin-bottom: 40px;
 
 }
